@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="164dp"
+    android:background="@color/colorPrimary"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/navigation_drawer_header_title"
+        android:layout_gravity="bottom|start"
+        style="@style/NavigationDrawerHeaderTitle"/>
+
+</FrameLayout>

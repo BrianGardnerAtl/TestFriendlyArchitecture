@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/navigation_drawer_main_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/reminders_all"
+            android:title="@string/navigation_drawer_item_all"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/reminders_today"
+            android:title="@string/navigation_drawer_item_today"/>
+
+        <item
+            android:id="@+id/reminders_week"
+            android:title="@string/navigation_drawer_item_week"/>
+    </group>
+</menu>

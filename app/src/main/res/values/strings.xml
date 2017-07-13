@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">TestFriendlyArchitecture</string>
+    <string name="app_name">Reminders</string>
+
+    <!-- Navigation Drawer Strings-->
+    <string name="content_description_open_drawer">Open navigation drawer</string>
+    <string name="content_description_close_drawer">Close navigation drawer</string>
+    <string name="navigation_drawer_header_title">Lists</string>
+    <string name="navigation_drawer_item_all">All</string>
+    <string name="navigation_drawer_item_today">Today</string>
+    <string name="navigation_drawer_item_week">Week</string>
+
+    <!-- Screen Titles -->
+    <string name="title_all_reminders">All Reminders</string>
+    <string name="title_today_reminders">Today\'s Reminders</string>
+    <string name="title_week_reminders">Week\'s Reminders</string>
+    <string name="title_new_reminder">New Reminder</string>
+
+    <!-- Create Reminder Screen -->
+    <string name="reminder_title_label">Reminder text</string>
+    <string name="reminder_set_date">Set Date</string>
+    <string name="reminder_save">Save Reminder</string>
+
+    <!-- Date Dialog Fragment -->
+    <string name="date_dialog_title">Select Reminder Date</string>
 </resources>
