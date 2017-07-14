@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.bignerdranch.android.testfriendlyarchitecture.R;
+import com.bignerdranch.android.testfriendlyarchitecture.controller.create.CreateReminderActivity;
 import com.bignerdranch.android.testfriendlyarchitecture.controller.list.ReminderListFragment;
 import com.bignerdranch.android.testfriendlyarchitecture.databinding.ActivityDrawerBinding;
 import com.bignerdranch.android.testfriendlyarchitecture.model.date.DateRange;
@@ -66,6 +67,7 @@ public class DrawerActivity extends AppCompatActivity {
 
     private View.OnClickListener addReminderListener = view -> {
         // start the create activity
+        startActivity(CreateReminderActivity.newIntent(this));
     };
 
     private void updateFragment(Fragment fragment) {
