@@ -32,6 +32,9 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:25.4.0'
     implementation 'com.android.support:design:25.4.0'
 
+    // Joda Time
+    implementation 'joda-time:joda-time:2.9.9'
+
     testImplementation 'junit:junit:4.12'
 
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
