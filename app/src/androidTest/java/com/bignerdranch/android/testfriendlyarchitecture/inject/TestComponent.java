@@ -1,5 +1,7 @@
 package com.bignerdranch.android.testfriendlyarchitecture.inject;
 
+import com.bignerdranch.android.testfriendlyarchitecture.controller.AddReminderTest;
+
 import javax.inject.Singleton;
 
 import dagger.Component;
@@ -8,4 +10,5 @@ import dagger.Component;
         FakeStoreModule.class, AdapterModule.class, ModelModule.class})
 @Singleton
 interface TestComponent extends AppComponent {
+    void inject(AddReminderTest test);
 }
