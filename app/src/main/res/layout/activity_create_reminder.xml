@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="reminder"
+            type="com.bignerdranch.android.testfriendlyarchitecture.viewmodel.CreateReminderViewModel"/>
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/reminder_title_label"
+                android:text="@={reminder.title}"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/set_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{reminder.date}"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/save_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reminder_save"/>
+    </LinearLayout>
+</layout>
